@@ -143,12 +143,6 @@ Page({
     this.mapctx = wx.createMapContext("map");
     this.movetoCenter();
   },
-  bindtap: function (res) {
-    console.log("点击了地图", res);
-  },
-  bindupdated: function (res) {
-    console.log("地图渲染完成", res);
-  },
   /**
    * 视野发生变化时触发
    */
